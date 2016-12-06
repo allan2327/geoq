@@ -8,8 +8,8 @@ import os
 SITE_ROOT = os.path.dirname(os.path.realpath(__file__))
 
 
-DEBUG = True
-TEMPLATE_DEBUG = True
+DEBUG = False
+TEMPLATE_DEBUG = False
 
 ADMINS = (
     ('Admin User', 'admin@domain.com'),
